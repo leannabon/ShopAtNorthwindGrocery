@@ -15,11 +15,13 @@ html, body {
 }
 
 nav {
-    background-color: lightcoral;
+    background-color: indianred;
 }
-/* body {
-  background-image: url(/Assets/index_img1.jpg);
-} */
+
+#mainImg1 {
+  max-width: 100%;
+  object-fit: cover;
+}
 
 .parentDiv {
   width: 100%;
@@ -29,7 +31,6 @@ nav {
   align-items:  center;
   text-align: center;
   flex:1;
-  padding: 5%;
 }
 
 #childDivLeft {
@@ -41,7 +42,6 @@ nav {
   background-color: lightsalmon;
   float:right;
 }
-
 p {
-padding: 25%;
+  padding: 10%;
 }
