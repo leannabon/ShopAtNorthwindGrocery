@@ -45,7 +45,15 @@
     <main>
       <div class="container">
         <img src="/Assets/index_img1.jpg" >
-        <div class="centered">The text will appear in the middle of the image</div>
+        <div class="centered">
+            <select id="searchBy">
+                <option value="0">Select</option>
+                <option value="1">Search By Category</option>
+                <option value="2">View All</option>
+            </select>
+            <button type="button" id="searchBtn">Search</button>
+            <div id="searchCategory"></div>
+        </div>
       </div>
     </main>
     <footer>
