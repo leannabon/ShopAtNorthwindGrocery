@@ -45,19 +45,26 @@
     <!--END OF HEADER-->
 
     <main>
-      <div class="container">
-        <div class="centered">
-            <select id="searchBy" onchange="showSecondDropdown(this)">
-                <option value="0">Select</option>
-                <option value="1">Search By Category</option>
-                <option value="2">View All</option>
-            </select>
-            
-            <select id="searchCategory" style="display:none;"></select>
-            <br>
-            <button type="button" id="searchBtn">Search</button>
+      <div class="container-fluid">
+        <div class="row mt-5">
+            <div class="col-4">
+                    <select id="searchBy" class="btn btn-light mt-2" onchange="showSecondDropdown(this)">
+                        <option value="0">Select</option>
+                        <option value="1">Search By Category</option>
+                        <option value="2">View All</option>
+                    </select>
+                    
+                    <select id="searchCategory" class="btn btn-light mt-2" style="display:none;"></select>
+
+                    <button type="button" class="btn btn-light ms-2 mt-2" id="searchBtn">Search</button>
+            </div>
+            <div class="col-8">
+                <div class="row gap-3">
+                    <div id="display"></div>
+                </div>
+            </div>
         </div>
-      </div>
+    </div>
     </main>
 
     <footer>
