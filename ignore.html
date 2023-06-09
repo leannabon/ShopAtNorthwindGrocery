@@ -10,7 +10,7 @@
     />
 
     <!--Stylesheet-->
-    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/productcard.css" />
 
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -42,49 +42,40 @@
       </nav>
     </header>
     <!--END OF HEADER-->
+
     <main>
-      <!-- <div class="container">
-        <div class="centered">
-            <select id="searchBy">
-                <option value="0">Select</option>
-                <option value="1">Search By Category</option>
-                <option value="2">View All</option>
-            </select>
-            <button type="button" id="searchBtn">Search</button>
-            <div id="searchCategory"></div>
-        </div>
-      </div>
-    </main>
-    <footer> -->
 
-    <div class="parentDiv">
-      <div class="childDiv" id="">
-          You can put your dropdowns here
-      </div>
-      <div class="childDiv" id="">
-            stuff goes here
-      </div>
-    </div>
+        <div class="container-fluid">
+            <div class="row mt-5">
+                <div class="col-4">
+                        <select id="searchBy" class="btn btn-light mt-2" onchange="showSecondDropdown(this)">
+                            <option value="0">Select</option>
+                            <option value="1">Search By Category</option>
+                            <option value="2">View All</option>
+                        </select>
+                        
+                        <select id="searchCategory" class="btn btn-light mt-2" style="display:none;"></select>
 
-      <!-- <div class="container">
-        <div class="row">
-          <div class="col-4">
-            <div class="centered">
-              <select class="btn btn-light" id="searchBy">
-                  <option value="0">Select</option>
-                  <option value="1">Search By Category</option>
-                  <option value="2">View All</option>
-              </select>
-              <button type="button" class="btn btn-light" id="searchBtn">Search</button>
-              <div id="searchCategory"></div>
-          </div>
-          </div>
-          <div class="col">
-            
-            
-          </div>
+                        <button type="button" class="btn btn-light ms-2 mt-2" id="searchBtn">Search</button>
+                </div>
+                <div class="col-8">
+                    <div class="row gap-3">
+                        <div class="card" style="width: 15rem;"> 
+                            <div class="card-body">
+                              <h5 class="card-title">Product Name</h5>
+                              <p class="card-text">Price</p>
+                              <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                              <p class="card-text">[number] in stock</p>
+                              <p class="card-text"><small class="text-body-secondary"><a href="details.html">See Details</a></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div> -->
+
     
       <!-- place footer here -->
     </footer>
