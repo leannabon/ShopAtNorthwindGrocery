@@ -1,0 +1,19 @@
+1. Home Page
+    -highlights Northwind
+    -Provides a link to the products search Page
+2. Products Search Page
+    -Dropdown that specifies how a user will search:
+        1. Default: Select one
+        2. Search By Category
+            -   Search By Category populates a new dropdown list with categories
+            -   View products from selected catgory
+        3. View All
+            -   Will display all products 
+
+3. Products Details Page
+    - Shows detail of one product
+    - Utilize query string
+
+*Bonus
+1. Sort by product name before displaying (.sort method on arrat)
+2. Find Images to correspond to the 8 categories
