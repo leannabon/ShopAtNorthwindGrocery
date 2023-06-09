@@ -29,14 +29,15 @@ nav {
   align-items:  center;
   text-align: center;
   flex:1;
+  padding: 5%;
 }
 
-#childDiv1 {
+#childDivLeft {
   background-color: salmon;
   float:left;
 }
 
-#childDiv2 {
+#childDivRight {
   background-color: lightsalmon;
   float:right;
 }
