@@ -1,6 +1,6 @@
 1. Home Page
-    -highlights Northwind
-    -Provides a link to the products search Page
+    ✅highlights Northwind
+    ✅Provides a link to the products search Page
 2. Products Search Page
     -Dropdown that specifies how a user will search:
         1. Default: Select one

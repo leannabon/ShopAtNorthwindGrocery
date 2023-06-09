@@ -35,18 +35,33 @@ nav {
 
 #childDivLeft {
   background-color: salmon;
+  color: brown;
   float:left;
 }
 
 #childDivRight {
   background-color: lightsalmon;
-  float:right;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
 }
 p {
   padding: 10%;
+
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
+h1{
+  padding: 10% 10% 0 10%;
+  font-weight: 900;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+
 }
