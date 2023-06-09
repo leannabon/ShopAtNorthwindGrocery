@@ -12,7 +12,6 @@ fetch('http://localhost:8081/api/categories')
     });
   });
 
-
   let searchButton = document.getElementById("searchBtn");
   const firstDropdown = document.getElementById("searchBy");
   const categoryDropdown = document.getElementById("searchCategory");
