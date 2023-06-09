@@ -11,6 +11,7 @@
 
     <!--Stylesheet-->
     <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/productcard.css" />
 
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -42,20 +43,24 @@
       </nav>
     </header>
     <!--END OF HEADER-->
+
     <main>
       <div class="container">
         <img src="/Assets/index_img1.jpg" >
         <div class="centered">
-            <select id="searchBy">
+            <select id="searchBy" onchange="showSecondDropdown(this)">
                 <option value="0">Select</option>
                 <option value="1">Search By Category</option>
                 <option value="2">View All</option>
             </select>
+            
+            <select id="searchCategory" style="display:none;"></select>
+            <br>
             <button type="button" id="searchBtn">Search</button>
-            <div id="searchCategory"></div>
         </div>
       </div>
     </main>
+
     <footer>
       <!-- place footer here -->
     </footer>
