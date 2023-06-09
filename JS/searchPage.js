@@ -9,7 +9,7 @@ fetch('http://localhost:8081/api/categories')
     });
   });
 
-  window.onload = function(){
-    let searchButton = document.getElementById("searchBtn");
-    // searchButton.addEventListener("click", function(){ //input function })
-  }
+  // window.onload = function(){
+  //   let searchButton = document.getElementById("searchBtn");
+  //   // searchButton.addEventListener("click", function(){ //input function })
+  // }

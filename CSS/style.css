@@ -7,20 +7,28 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+html, body {
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+}
 
 nav {
     background-color: lightcoral;
 }
-body {
+/* body {
   background-image: url(/Assets/index_img1.jpg);
-}
+} */
 
 .parentDiv {
   width: 100%;
+  display: flex;
 }
 .childDiv {
+  align-items:  center;
   text-align: center;
-  width:50%;
+  flex:1;
 }
 
 #childDiv1 {
@@ -31,4 +39,8 @@ body {
 #childDiv2 {
   background-color: lightsalmon;
   float:right;
+}
+
+p {
+padding: 25%;
 }
