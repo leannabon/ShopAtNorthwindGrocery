@@ -2,7 +2,7 @@
     ✅highlights Northwind
     ✅Provides a link to the products search Page
 2. Products Search Page
-    -Dropdown that specifies how a user will search:
+    ✅Dropdown that specifies how a user will search:
         1. Default: Select one
         2. Search By Category
             -   Search By Category populates a new dropdown list with categories
