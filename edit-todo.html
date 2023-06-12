@@ -86,14 +86,15 @@
             
                   fetch("https://jsonplaceholder.typicode.com/posts", requestOptions)
                     .then(response => response.text())
-                    .then(result => console.log(result))
+                    .then(result => 
+                    document.getElementById("display").innerHTML = result)
                     .catch(error => console.log('error', error));
                 }
               </script>
         </div>
         <div class="col-4">
-            <!-- <label for="ID">ID:</label>
-            <div id="display">Our stuff here! 🥸</div> -->
+            <label for="ID">ID:</label>
+            <div id="display">Our stuff here! 🥸</div>
         </div>
         
     </div>
