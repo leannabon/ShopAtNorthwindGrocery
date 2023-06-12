@@ -19,7 +19,12 @@ fetch('http://localhost:8081/api/categories')
   function showSecondDropdown(el){
     if (el.options[el.selectedIndex].value == 1){
       categoryDropdown.style.display = 'block';
-    }else{
+    }else{{
+      "userId": 1,
+      "id": 1,
+      "title": "delectus aut autem",
+      "completed": false
+  }
       categoryDropdown.style.display = 'none';
     }
   }
