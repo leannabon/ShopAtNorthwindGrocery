@@ -35,19 +35,18 @@ fetch('http://localhost:8081/api/categories')
       <div class="row gap-3">
           <div class="card" style="width: 15rem;"> 
               <div class="card-body">
-                <h5 class="card-title">Product Name</h5>
-                <p class="card-text">Price</p>
+                <h5 class="card-title">${data.productName}</h5>
+                <p class="card-text">${data.unitPrice}</p>
                 <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar" role="progressbar" style="width: ${unitsInStock}%" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <p class="card-text">[number] in stock</p>
+                <p class="card-text">${unitsInStock} in stock</p>
                 <p class="card-text"><small class="text-body-secondary"><a href="details.html">See Details</a></small></p>
               </div>
           </div>
       </div>`
       }
 
-      }
+      })
     });
-  });
   
