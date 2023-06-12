@@ -61,8 +61,7 @@
             
               <button onclick="sendPostRequest()" class="btn btn-light ms-2 mt-2">Send POST Request</button>
                 <a href="index.html"><button class="btn btn-danger ms-2 mt-2">CANCEL</button></a>
-              <script>
-                const
+              <script> 
 
                 function sendPostRequest() {
                   const userId = document.getElementById('userId').value;
@@ -88,7 +87,6 @@
                   fetch("https://jsonplaceholder.typicode.com/posts", requestOptions)
                     .then(response => response.text())
                     .then(result => console.log(result))
-                    
                     .catch(error => console.log('error', error));
                 }
               </script>
